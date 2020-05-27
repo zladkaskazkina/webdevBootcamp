@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: thistle;
+}
+.myCalculator {
+  background-color: teal;
+  width: 350px;
+  height: 450px;
+
+  margin: 0 auto;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.display {
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  text-align: right;
+  font-size: 50;
+}
+button {
+  background-color: grey;
+  height: 75px;
+  width: 75px;
+}
+/*  
+.calculatorKeys{
+  display: grid;
+}
+*/
+/* 
+.container {
+  display: flex;
+}
+.operations-block {
+  width: 80px;
+  margin: 0 auto;
+}
+button {
+  background-color: grey;
+  height: 75px;
+  width: 75px;
+  border-radius: 10px;
+  font-size: 40;
+  margin: 0 2px;
+}
+.calculator-keys {
+  padding: 2px;
+}
+.other {
+  position: relative;
+  bottom: 150px;
+  left: 85px;
+}
+.key-equal {
+  width: 250px;
+  position: relative;
+  bottom: 150px;
+}
